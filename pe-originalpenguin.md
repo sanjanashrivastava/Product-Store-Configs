@@ -24,10 +24,10 @@ Additionally, users have the flexibility to configure additional settings based 
 | Settings            | Description                                                                                                                                        | Value                                                |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | RATE_SHOPPING        | Rate Shopping feature allows HotWax Commerce to find the lowest possible shipping option that can deliver the order within SLA.                    | Y                   |
-|SHIPT_SYSTEM_RMT_ID   | Description | SHIPT_CONFIG
+|SHIPT_SYSTEM_RMT_ID   | This is a unique id for Shipt configuration.      | SHIPT_CONFIG
 | INV_CNT_VIEW_QOH     | This setting allows users to see current QOH from HotWax Commerce on the product detail page of the Inventory Count app to help users during the periodic cycle count.    | false               |
 | PRDT_IDEN_PREF       | Retailers can set a preferred `Product Identifier` for employees to view products with defined product identifiers.                                         |          |
 | RTN_RSTCK_FAC        | This is the default facility that will be used to restock the return products.                                                                    | WH                  |
 | SAVE_BILL_TO_INF     | Save customers' `Bill To` information on orders from Shopify in HotWax Commerce.                                                                  | N                   |
-| PRE_SLCTD_FAC_TAG    | Orders imported with this tag will be checked for pre-selected facilities mentioned on them to fulfill them from. | HC_PRE_SELECTED_FAC     |
+| PRE_SLCTD_FAC_TAG    | The orders imported with this tag will be checked for pre-selected facilities mentioned on them to fulfill them from. | HC_PRE_SELECTED_FAC     |
 | ORD_ITM_SHIP_FAC     | This is the facility that will be used for fulfilling the order.  | _hcShippingFacility     |
