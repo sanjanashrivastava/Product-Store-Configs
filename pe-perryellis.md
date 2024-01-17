@@ -1,4 +1,3 @@
-
 # Perry Ellis
 
 Certain settings are mandatory for every Product Store to ensure efficient operations.
