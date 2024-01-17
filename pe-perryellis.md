@@ -26,4 +26,4 @@ Additionally, users have the flexibility to configure additional settings based 
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | ORD_ITM_SHIP_FAC     | This is the facility that will be used for fulfilling the order.  | _hcShippingFacility     |
 | PRE_SLCTD_FAC_TAG    | Orders imported with this tag will be checked for pre-selected facilities mentioned on them to fulfill them from. | HC_PRE_SELECTED_FAC     |
-| SHIPT_SYSTEM_RMT_ID  | Description                                                                 | PE_SHIPT_CONFIG         |
+| SHIPT_SYSTEM_RMT_ID  | This is a unique id for Shipt configuration.               | PE_SHIPT_CONFIG         |
