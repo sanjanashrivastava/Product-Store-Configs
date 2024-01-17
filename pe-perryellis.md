@@ -1,12 +1,12 @@
 
-# Cubavera
+# Perry Ellis
 
 Certain settings are mandatory for every Product Store to ensure efficient operations.
 
 | Field                 | Description                                                                                                                                                                                      | Value          |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| Store Name            | Product Store serves as a representation of a company or brand, particularly useful for retailers managing multiple brands. Make sure to specify the brand name before proceeding.                 | Cubavera       |
-| Inventory Facility    | It is the default facility used to push inventory counts from HotWax Commerce to eCommerce.                                                                                                   | 113            |
+| Store Name            | Product Store serves as a representation of a company or brand, particularly useful for retailers managing multiple brands. Make sure to specify the brand name before proceeding.                 | Perry Ellis       |
+| Inventory Facility    | It is the default facility used to push inventory counts from HotWax Commerce to eCommerce.                                                                                                   | 74            |
 | Reserve inventory     | HotWax Commerce serves as Inventory Master therefore it reserves inventory for all online orders. This setting should consistently remain at its default value of Y without alteration to ensure accurate inventory management.                    | N              |
 | Enable Brokering      | Brokering ensures optimized inventory allocation for orders. Therefore, this setting should always be maintained at its default value of Y and should not be modified.                             | N              |
 | Pre-order auto releasing | This setting enables users to configure whether the inventory for pre-order items should be automatically released when the shipping date arrives. The settings should be changed to N if the user wants manual control over releasing pre-orders. | N              |
@@ -20,13 +20,10 @@ Certain settings are mandatory for every Product Store to ensure efficient opera
 
 
 <br></br>
-Additionally, users have the flexibility to configure additional settings based on the specific business needs of ADOC El Salvador.
+Additionally, users have the flexibility to configure additional settings based on the specific business needs of Perry Ellis.
 
 | Settings            | Description                                                                                                                                        | Value                                                |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| INV_CNT_VIEW_QOH    | This setting allows users to see current QOH from HotWax Commerce on the product detail page of the Inventory Count app to help users during the periodic cycle count.                                       | false                                                |
-| PRDT_IDEN_PREF      | Retailers can set a preferred `Product Identifier` for employees to view products with defined product identifiers.                                         | {"primaryId":"internalName","secondaryId":"parentProductName"} |
-| RTN_RSTCK_FAC       | This is the default facility that will be used to restock the return products.                                                                    | WH                                                   |
-| SAVE_BILL_TO_INF    | Save customers' `Bill To` information on orders from Shopify in HotWax Commerce.                                                                  | Y                                                    |
-| RATE_SHOPPING       | Rate Shopping feature allows HotWax Commerce to find the lowest possible shipping option that can deliver the order within SLA.                    | N                                                    |
-| DEFAULT_CARRIER     | Retailers can assign a default shipping carrier to handle the transportation and delivery of products within a specific product store.              | C807                                                 |
+| ORD_ITM_SHIP_FAC     | Description                                                                 | _hcShippingFacility     |
+| PRE_SLCTD_FAC_TAG    | Description                                                                 | HC_PRE_SELECTED_FAC     |
+| SHIPT_SYSTEM_RMT_ID  | Description                                                                 | PE_SHIPT_CONFIG         |
