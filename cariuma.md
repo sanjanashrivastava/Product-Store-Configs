@@ -1,5 +1,11 @@
 # Product Store
 
+In HotWax Commerce, a “Product Store” represents a company or brand. This functionality is useful for retailers with multiple brands. Product Stores help users organize and manage configurations for their brands efficiently within HotWax Commerce.
+
+This section displays the default settings configured for Cariuma, specifically adjusted to match its unique business needs. These settings are pre-configured to streamline operations and reflect the typical setup ideal for Cariuma’s operations within HotWax Commerce.
+
+Users have the flexibility to adjust these configurations as necessary to align with their specific business requirements or evolving needs.
+
 **Certain settings are mandatory for every Product Store to ensure efficient operations.**
 
 | Field                 | Description                                                                                                                                                                                      | Value          |
@@ -27,4 +33,4 @@
 | INV_CNT_VIEW_QOH     | This setting allows users to see current QOH from HotWax Commerce on the product detail page of the Inventory Count app to help users during the periodic cycle count.    | false               |
 | PRDT_IDEN_PREF       | Retailers can set a preferred `Product Identifier` for employees to view products with defined product identifiers.                                         |          |
 | SAVE_BILL_TO_INF     | Save customers' `Bill To` information on orders from Shopify in HotWax Commerce.                                                                  | N                   |
-| HOLD_PRORD_PHYCL_INV | If preorder queue exists physical inventory will be considered as 0, default is true.  | false     |
+| HOLD_PRORD_PHYCL_INV | If a pre-order queue exists, then physical inventory of that item is considered as 0. The default value for this setting is "true" indicating that it is enabled, in order to disable it, the user need to set it to "false".  | false     |
