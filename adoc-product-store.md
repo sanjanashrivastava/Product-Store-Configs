@@ -37,16 +37,18 @@ Additionally, users have the flexibility to configure additional settings based 
 | DEFAULT_CARRIER   | Retailers can assign a default shipping carrier to handle the transportation and delivery of products within a specific product store.                                  | Refer Table 3   |
 
 <br>
-Table 3: Details specific to various ADOC OMS instances. 
-| ADOC OMS          | Product Store    | Currency  | Sales Order ID Prefix  | Default Carrier        | Product Identifier                                                  |
-|-------------------|------------------|-----------|------------------------|------------------------|---------------------------------------------------------------------|
-| ADOC El Salvador  | ADOC Store       | USD       | ADOC                   | C807                   | {"primaryId":"internalName","secondaryId":"parentProductName"}      |
-| ADOC Nicaragua    | ADOC Nicaragua   | NIO       | ADOC                   | CARGOTRANS             | {"primaryId":"parentProductName","secondaryId":"title"}             |
-| ADOC Honduras     | ADOC Honduras    | HNL       | ADOC0                  | HN_DEFAULT_CARRIER     | {"primaryId":"parentProductName","secondaryId":"SHOPIFY_PROD_SKU"}  |
-| ADOC Guatemala    | ADOC Guatemala   | GTQ       | ADOC                   | -                      | {"primaryId":"internalName","secondaryId":"parentProductName"}      |
-| ADOC Costa Rica   | ADOC Costa Rica  | CRC       | ADOC                   | TERMINAL_EXPRESS       | {"primaryId":"internalName","secondaryId":"title"}                  |
 
+## Details specific to various ADOC OMS instances. 
 
+| ADOC OMS          | Product Store    | Currency | Sales Order ID Prefix | Default Carrier     | Product Identifier                                              |
+| ----------------- | ---------------- | -------- | --------------------- | --------------------- | ----------------------------------------------------------------- |
+| ADOC El Salvador  | ADOC Store       | USD      | ADOC                  | C807                | {"primaryId":"internalName","secondaryId":"parentProductName"}  |
+| ADOC Nicaragua    | ADOC Nicaragua   | NIO      | ADOC                  | CARGOTRANS          | {"primaryId":"parentProductName","secondaryId":"title"}         |
+| ADOC Honduras     | ADOC Honduras    | HNL      | ADOC0                 | HN_DEFAULT_CARRIER  | {"primaryId":"parentProductName","secondaryId":"SHOPIFY_PROD_SKU"} |
+| ADOC Guatemala    | ADOC Guatemala   | GTQ      | ADOC                  | -                   | {"primaryId":"internalName","secondaryId":"parentProductName"}  |
+| ADOC Costa Rica   | ADOC Costa Rica  | CRC      | ADOC                  | TERMINAL_EXPRESS    | {"primaryId":"internalName","secondaryId":"title"}               |
+
+<sub>Table 3: Details specific to various ADOC OMS instances.</sub>
 
 
 
