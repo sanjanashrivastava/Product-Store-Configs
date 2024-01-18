@@ -47,7 +47,8 @@ Additionally, users have the flexibility to configure additional settings based 
 | ADOC Honduras     | ADOC Honduras    | HNL      | ADOC0                 | HN_DEFAULT_CARRIER  | {"primaryId":"parentProductName","secondaryId":"SHOPIFY_PROD_SKU"} |
 | ADOC Guatemala    | ADOC Guatemala   | GTQ      | ADOC                  | -                   | {"primaryId":"internalName","secondaryId":"parentProductName"}  |
 | ADOC Costa Rica   | ADOC Costa Rica  | CRC      | ADOC                  | TERMINAL_EXPRESS    | {"primaryId":"internalName","secondaryId":"title"}               |  
-<br> > <sub>Table 3: Details specific to various ADOC OMS instances.</sub>
+
+> <sub>Table 3: Details specific to various ADOC OMS instances.</sub>
 
 
 
