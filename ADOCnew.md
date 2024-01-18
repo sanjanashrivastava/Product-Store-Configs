@@ -11,7 +11,7 @@ Certain settings are mandatory for every Product Store to ensure efficient opera
 
 | Field                    | Description                                           | Value          |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Store Name               | Product Store serves as a representation of a company or brand, particularly useful for retailers managing multiple brands. Make sure to specify the brand name before proceeding.                                                                                                | Refer [Table 3](##)         |                    
+| Store Name               | Product Store serves as a representation of a company or brand, particularly useful for retailers managing multiple brands. Make sure to specify the brand name before proceeding.                                                                                                | Refer [Table 3](##Table-3)         |                    
 | Inventory Facility       | It is the default facility used to push inventory counts from HotWax Commerce to eCommerce.                                                                                                                                                                                       | `_NA_`              |
 | Reserve inventory        | HotWax Commerce serves as Inventory Master therefore it reserves inventory for all online orders. This setting should consistently remain at its default value of Y without alteration to ensure accurate inventory management.                                                   | Y                   |
 | Enable Brokering         | Brokering ensures optimized inventory allocation for orders. Therefore, this setting should always be maintained at its default value of Y and should not be modified.                                                                                                            | Y                   |
@@ -38,7 +38,7 @@ Additionally, users have the flexibility to configure additional settings based 
 
 <br>
 
-##   
+## Table 3   
 **Details specific to various ADOC OMS instances.**
 
 | ADOC OMS          | Product Store    | Currency | Sales Order ID Prefix | Default Carrier     | Product Identifier                                              |
