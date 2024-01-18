@@ -37,9 +37,10 @@ Additionally, users have the flexibility to configure additional settings based 
 | DEFAULT_CARRIER   | Retailers can assign a default shipping carrier to handle the transportation and delivery of products within a specific product store.                                  | Refer [Table 3](##)     |
 
 ##
+
 **Details specific to various ADOC OMS instances.**
 
-| ADOC OMS          | Product Store    | Currency | Sales Order ID Prefix | Default Carrier     | Product Identifier                                              |
+| ADOC OMS          | Store Name    | Currency | Sales Order ID Prefix | DEFAULT_CARRIER     | PRDT_IDEN_PREF                                             |
 | ----------------- | ---------------- | -------- | --------------------- | --------------------- | ----------------------------------------------------------------- |
 | ADOC El Salvador  | ADOC Store       | USD      | ADOC                  | C807                | {"primaryId":"internalName","secondaryId":"parentProductName"}  |
 | ADOC Nicaragua    | ADOC Nicaragua   | NIO      | ADOC                  | CARGOTRANS          | {"primaryId":"parentProductName","secondaryId":"title"}         |
@@ -49,5 +50,15 @@ Additionally, users have the flexibility to configure additional settings based 
 
 >Table 3: Details specific to various ADOC OMS instances.
 
+**Details specific to various ADOC OMS instances.**
 
+| Setting         | El Salvador    | Nicaragua | Honduras | Guatemala     | Costa Rica     |
+| ----------------- | ---------------- | -------- | --------------------- | --------------------- | ------------------------------------------ |
+| Store Name  | ADOC Store       | ADOC Nicaragua      | ADOC Honduras        | ADOC Guatemala        | ADOC Costa Rica |
+| Currency    | USD   | NIO      | HNL                  | GTQ          | CRC         |
+| Sales Order ID Prefix | ADOC | ADOC | ADOC0 | ADOC | ADOC | 
+| PRDT_IDEN_PREF | {"primaryId":"internalName","secondaryId":"parentProductName"}  | {"primaryId":"parentProductName","secondaryId":"title"}         |
+ {"primaryId":"parentProductName","secondaryId":"SHOPIFY_PROD_SKU"} | {"primaryId":"internalName","secondaryId":"parentProductName"}  | {"primaryId":"internalName","secondaryId":"title"} | 
+ | DEFAULT CARRIER | C807 | CARGOTRANS | HN_DEFAULT_CARRIER | - | TERMINAL_EXPRESS | 
+>Table 3: Details specific to various ADOC OMS instances.
 
