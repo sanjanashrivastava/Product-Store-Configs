@@ -38,7 +38,7 @@ Additionally, users have the flexibility to configure additional settings based 
 
 <br>
 
-### Details specific to various ADOC OMS instances. 
+#### Details specific to various ADOC OMS instances. [#]
 
 | ADOC OMS          | Product Store    | Currency | Sales Order ID Prefix | Default Carrier     | Product Identifier                                              |
 | ----------------- | ---------------- | -------- | --------------------- | --------------------- | ----------------------------------------------------------------- |
@@ -48,7 +48,7 @@ Additionally, users have the flexibility to configure additional settings based 
 | ADOC Guatemala    | ADOC Guatemala   | GTQ      | ADOC                  | -                   | {"primaryId":"internalName","secondaryId":"parentProductName"}  |
 | ADOC Costa Rica   | ADOC Costa Rica  | CRC      | ADOC                  | TERMINAL_EXPRESS    | {"primaryId":"internalName","secondaryId":"title"}               |  
 
-> <sub>Table 3: Details specific to various ADOC OMS instances.</sub>
+>Table 3: Details specific to various ADOC OMS instances.
 
 
 
