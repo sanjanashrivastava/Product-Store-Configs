@@ -35,8 +35,10 @@ Additionally, users have the flexibility to configure additional settings based 
 | SAVE_BILL_TO_INF  | Save customers' `Bill To` information on orders from Shopify in HotWax Commerce.                                                                                        | Y               |
 | RATE_SHOPPING     | Rate Shopping feature allows HotWax Commerce to find the lowest possible shipping option that can deliver the order within SLA.                                         | N               |
 | DEFAULT_CARRIER   | Retailers can assign a default shipping carrier to handle the transportation and delivery of products within a specific product store.                                  | Refer [Table 3](##)     |
+<br>
 
-#### Details specific to various ADOC OMS instances.**
+##
+**Details specific to various ADOC OMS instances.**
 
 | ADOC OMS          | Product Store    | Currency | Sales Order ID Prefix | Default Carrier     | Product Identifier                                              |
 | ----------------- | ---------------- | -------- | --------------------- | --------------------- | ----------------------------------------------------------------- |
